@@ -1,0 +1,16 @@
+{
+  "_instructions": "Copy this file to eval_set.json and replace with real questions from YOUR ingested documents. For each question: (1) pick a fact that appears in exactly one source file, (2) note that filename as expected_source, (3) write the correct answer as reference_answer. Aim for 15-30 questions covering different files/sections for a meaningful sample.",
+
+  "questions": [
+    {
+      "question": "What is the return policy time window mentioned in the handbook?",
+      "expected_source": "employee_handbook.pdf",
+      "reference_answer": "Items can be returned within 30 days of purchase with a valid receipt."
+    },
+    {
+      "question": "Who is the point of contact for IT support requests?",
+      "expected_source": "onboarding_guide.pdf",
+      "reference_answer": "IT support requests should be sent to the helpdesk email listed in the onboarding guide."
+    }
+  ]
+}

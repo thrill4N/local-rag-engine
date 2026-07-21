@@ -1,0 +1,37 @@
+New Employee Onboarding Guide
+
+Section 1: IT Support and Accounts
+All IT support requests should be directed to helpdesk@examplecorp.internal
+or filed as a ticket through the IT Service Portal, not sent directly to
+individual IT staff members. The portal is the only channel with a
+guaranteed response-time SLA: 4 business hours for standard requests, and
+30 minutes for anything tagged "urgent — access blocked." New hires
+receive their primary email and single sign-on (SSO) credentials from IT
+on their first morning, provisioned automatically the night before their
+start date based on the offer letter's start date field.
+
+Section 2: Equipment Provisioning
+Standard equipment (laptop, monitor, keyboard, mouse) is shipped to the
+employee's home address 5 business days before their start date for remote
+hires, or waiting at their desk on day one for office-based hires.
+Employees needing non-standard equipment (a second monitor, specialized
+peripherals, accessibility equipment) should request it through their
+manager during the first week; these requests typically take 7-10
+business days to fulfill.
+
+Section 3: First Week Schedule
+Day one consists of a company-wide orientation session (9am-12pm) followed
+by IT setup and account verification in the afternoon. Days two and three
+are reserved for department-specific onboarding led by the new hire's
+manager. By the end of week one, every new employee should have completed
+the compliance training module in the Learning Portal — this is mandatory
+and tracked; HR follows up directly with the employee's manager if it is
+not completed within 5 business days of the start date.
+
+Section 4: Benefits Enrollment
+New employees have 30 days from their start date to enroll in health,
+dental, and vision benefits through the Benefits Portal. Enrollment
+outside this 30-day window is only possible during the annual open
+enrollment period in November, except in the case of a qualifying life
+event (marriage, birth of a child, loss of other coverage), which reopens
+a 30-day enrollment window from the date of the event.

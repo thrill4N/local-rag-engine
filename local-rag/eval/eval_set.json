@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "question": "How many PTO days do full-time employees accrue per year?",
+      "expected_source": "employee_handbook.txt",
+      "reference_answer": "Full-time employees accrue 15 days of paid time off per calendar year, credited at 1.25 days per completed month."
+    },
+    {
+      "question": "How much unused PTO can carry over to the next year?",
+      "expected_source": "employee_handbook.txt",
+      "reference_answer": "Up to 5 days can carry over; any balance beyond that is forfeited on December 31st."
+    },
+    {
+      "question": "How many days per week can an employee work remotely without manager approval?",
+      "expected_source": "employee_handbook.txt",
+      "reference_answer": "Up to 3 days per week without prior manager approval; 4-5 days requires written approval renewed annually."
+    },
+    {
+      "question": "What is the reimbursement threshold above which an expense needs pre-approval?",
+      "expected_source": "employee_handbook.txt",
+      "reference_answer": "Expenses of $75 or more require manager pre-approval before the expense is incurred."
+    },
+    {
+      "question": "Where should IT support requests be sent?",
+      "expected_source": "onboarding_guide.txt",
+      "reference_answer": "To helpdesk@examplecorp.internal or through the IT Service Portal, not directly to individual IT staff."
+    },
+    {
+      "question": "How many days does a new employee have to enroll in benefits?",
+      "expected_source": "onboarding_guide.txt",
+      "reference_answer": "30 days from their start date, unless a qualifying life event reopens a new 30-day window."
+    },
+    {
+      "question": "How long does non-standard equipment take to fulfill for a new hire?",
+      "expected_source": "onboarding_guide.txt",
+      "reference_answer": "Typically 7-10 business days."
+    },
+    {
+      "question": "What is the minimum password length required by the security policy?",
+      "expected_source": "data_security_policy.pdf",
+      "reference_answer": "A minimum of 14 characters, including an uppercase letter, a number, and a symbol."
+    },
+    {
+      "question": "How quickly must a suspected data breach be reported to the Security team?",
+      "expected_source": "data_security_policy.pdf",
+      "reference_answer": "Within 1 hour of discovery, via the incident hotline, not email."
+    },
+    {
+      "question": "Within how many hours must affected clients be notified of a confirmed Tier 3 data breach?",
+      "expected_source": "data_security_policy.pdf",
+      "reference_answer": "Within 72 hours of confirming the breach."
+    },
+    {
+      "question": "Are personal phones allowed to access Tier 3 restricted data?",
+      "expected_source": "data_security_policy.pdf",
+      "reference_answer": "No, personal devices are not permitted to access Tier 3 data under any circumstances."
+    }
+  ]
+}

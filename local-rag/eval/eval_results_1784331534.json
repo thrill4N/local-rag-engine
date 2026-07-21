@@ -1,0 +1,149 @@
+[
+  {
+    "question": "How many PTO days do full-time employees accrue per year?",
+    "expected_source": "employee_handbook.txt",
+    "hit_at_k": true,
+    "reciprocal_rank": 1.0,
+    "generated_answer": "Not explicitly stated in provided context",
+    "model_confidence": 0.8,
+    "model_context_sufficient": false,
+    "fabricated_citations": [],
+    "judge_score": 1,
+    "judge_reason": "The system's answer is incorrect as it fails to state any information about PTO accrual for full-time employees.",
+    "overconfident": true
+  },
+  {
+    "question": "How much unused PTO can carry over to the next year?",
+    "expected_source": "employee_handbook.txt",
+    "hit_at_k": true,
+    "reciprocal_rank": 1.0,
+    "generated_answer": "Fully accrued at a rate of 1.25 days per completed month of employment",
+    "model_confidence": 0.99,
+    "model_context_sufficient": true,
+    "fabricated_citations": [],
+    "judge_score": 2,
+    "judge_reason": "The system's answer incorrectly suggests a rate of accrual rather than a specific number of days that can be carried over.",
+    "overconfident": true
+  },
+  {
+    "question": "How many days per week can an employee work remotely without manager approval?",
+    "expected_source": "employee_handbook.txt",
+    "hit_at_k": true,
+    "reciprocal_rank": 1.0,
+    "generated_answer": "3",
+    "model_confidence": 0.92,
+    "model_context_sufficient": true,
+    "fabricated_citations": [],
+    "judge_score": 3,
+    "judge_reason": "The system's answer partially aligns with the reference answer by providing a correct upper limit for remote work without prior approval but fails to include the nuanced requirement for more frequent remote work.",
+    "overconfident": false
+  },
+  {
+    "question": "What is the reimbursement threshold above which an expense needs pre-approval?",
+    "expected_source": "employee_handbook.txt",
+    "hit_at_k": true,
+    "reciprocal_rank": 1.0,
+    "generated_answer": "$75",
+    "model_confidence": 1.0,
+    "model_context_sufficient": true,
+    "fabricated_citations": [
+      "[employee_handbook.txt]"
+    ],
+    "judge_score": 4,
+    "judge_reason": "The system's answer closely matches the reference answer, but it does not specify \"or more\" and therefore appears to be missing a crucial part of the original statement.",
+    "overconfident": false
+  },
+  {
+    "question": "Where should IT support requests be sent?",
+    "expected_source": "onboarding_guide.txt",
+    "hit_at_k": true,
+    "reciprocal_rank": 1.0,
+    "generated_answer": "helpdesk@examplecorp.internal or filed as a ticket through the IT Service Portal",
+    "model_confidence": 1.0,
+    "model_context_sufficient": true,
+    "fabricated_citations": [],
+    "judge_score": 4,
+    "judge_reason": "The system's answer is mostly correct, but missing the nuance of \"not directly\" to individual IT staff, instead stating that requests can be filed through the portal.",
+    "overconfident": false
+  },
+  {
+    "question": "How many days does a new employee have to enroll in benefits?",
+    "expected_source": "onboarding_guide.txt",
+    "hit_at_k": true,
+    "reciprocal_rank": 1.0,
+    "generated_answer": "How many days does a new employee have to enroll in benefits?",
+    "model_confidence": 0.9,
+    "model_context_sufficient": true,
+    "fabricated_citations": [
+      "[onboarding_guide.txt]"
+    ],
+    "judge_score": 2,
+    "judge_reason": "The system's answer is missing the crucial detail about qualifying life events reopening a new 30-day window.",
+    "overconfident": true
+  },
+  {
+    "question": "How long does non-standard equipment take to fulfill for a new hire?",
+    "expected_source": "onboarding_guide.txt",
+    "hit_at_k": true,
+    "reciprocal_rank": 1.0,
+    "generated_answer": "7-10 business days",
+    "model_confidence": 0.78,
+    "model_context_sufficient": true,
+    "fabricated_citations": [],
+    "judge_score": 5,
+    "judge_reason": "The system's answer matches the reference answer exactly and shows no deviation.",
+    "overconfident": false
+  },
+  {
+    "question": "What is the minimum password length required by the security policy?",
+    "expected_source": "data_security_policy.pdf",
+    "hit_at_k": true,
+    "reciprocal_rank": 1.0,
+    "generated_answer": ", ",
+    "model_confidence": 1.0,
+    "model_context_sufficient": true,
+    "fabricated_citations": [],
+    "judge_score": 1,
+    "judge_reason": "The system's answer is incomplete and does not match the reference answer, which specifies a minimum length of 14 characters including specific character requirements.",
+    "overconfident": true
+  },
+  {
+    "question": "How quickly must a suspected data breach be reported to the Security team?",
+    "expected_source": "data_security_policy.pdf",
+    "hit_at_k": true,
+    "reciprocal_rank": 1.0,
+    "generated_answer": "One hour",
+    "model_confidence": 1.0,
+    "model_context_sufficient": true,
+    "fabricated_citations": [],
+    "judge_score": 2,
+    "judge_reason": "The system's answer is partially correct that a suspected data breach must be reported within an hour, but it incorrectly states the preferred method of reporting (email instead of the incident hotline).",
+    "overconfident": true
+  },
+  {
+    "question": "Within how many hours must affected clients be notified of a confirmed Tier 3 data breach?",
+    "expected_source": "data_security_policy.pdf",
+    "hit_at_k": true,
+    "reciprocal_rank": 1.0,
+    "generated_answer": "But within 72 hours after confirming the breach.",
+    "model_confidence": 1.0,
+    "model_context_sufficient": true,
+    "fabricated_citations": [],
+    "judge_score": 4,
+    "judge_reason": "The system's answer is almost fully correct but omits the word \"affected\" before clients.",
+    "overconfident": false
+  },
+  {
+    "question": "Are personal phones allowed to access Tier 3 restricted data?",
+    "expected_source": "data_security_policy.pdf",
+    "hit_at_k": true,
+    "reciprocal_rank": 1.0,
+    "generated_answer": "No, personal devices are not permitted to access Tier 3 data under any circumstances, including personal phones checking work email.",
+    "model_confidence": 1.0,
+    "model_context_sufficient": true,
+    "fabricated_citations": [],
+    "judge_score": 5,
+    "judge_reason": "The system's answer is identical to the reference answer in terms of content and scope.",
+    "overconfident": false
+  }
+]
